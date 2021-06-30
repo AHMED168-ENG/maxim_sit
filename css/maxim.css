@@ -1,0 +1,1431 @@
+body
+{
+    padding-top:75px;
+    margin: 0;
+}
+
+
+/* satrt nave bar */
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    top:0;
+    background-color:#000000;
+    height:75px;
+    z-index:7777
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active
+{
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color:white;
+    font-size:16px;
+    text-transform: capitalize;
+    padding:9px 0;
+    margin:0 15px;
+    position: relative;
+    margin-top: 20px
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color:white;
+
+}
+
+.navbar-light .navbar-brand
+{
+    color:white
+}
+
+.navbar .activ
+{
+    border-bottom:1.5px solid #1BAC91;
+    width:70%;
+    font-weight:500
+
+}
+.navbar-light .navbar-brand
+{
+    font-size:34px;
+    font-weight:600
+}
+.navbar-light .navbar-brand:hover
+{
+    color:white
+}
+.navbar-light .navbar-nav .nav-link span
+{
+    position: absolute;
+    left: -16px;
+    bottom:0;
+    width:0;
+    height:0;
+    transition:0.5s
+}
+.navbar-light .navbar-nav .nav-link:hover span
+{
+    width:100%;
+    height:2px;
+    background:#1BAC91;
+    
+}
+.navbar-toggler .navbar-light .navbar-toggler-icon
+{
+    color:white;
+    z-index:4444
+}
+.navbar .dropdown-item:hover
+    {
+        color:#1BAC91;
+    }
+.navbar-light .navbar-toggler {
+    color:white
+}
+
+
+@media(max-width:1000px)
+{
+    .navbar-light .navbar-nav .nav-link
+    {
+        color:black;
+        width:70px
+    }
+        .navbar-light .navbar-nav .nav-link:hover
+    {
+        color:#1BAC91;
+    }
+}
+
+
+/* end nave bar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start curosal */
+.carousel-item 
+{
+    background-size:cover;
+    height:600px;
+}
+ .thre
+{
+    background-image:url('../img/slide/slide-17.jpg')
+}
+ .tow
+{
+    background-image:url('../img/slide/apartment-chair-clean-contemporary-279719.jpg')
+}
+ .one
+{
+    background-image:url('../img/slide/hero-bg.jpg')
+}
+.carousel-item .back
+{
+    width:100%;
+    height:100%;
+    position: absolute;
+    background:rgba(0,0,0,0.4);
+    z-index:1
+}
+.carousel-item .over
+{
+    z-index: 2;
+    position:absolute;
+    color:white;
+    padding: 200px 0 0 50px;
+    height:500px;
+    overflow:hidden
+}
+.carousel-item .over h1
+{
+    font-size:58px;
+    font-family: serif;
+    margin-bottom: 10px;
+    transition-duration:5s
+}
+.carousel-item .over p
+{
+    color:rgba(255, 255, 255, 0.7);
+    font-size:28px;
+    font-family:sans-serif;
+    margin-bottom: 20px;
+    transition-duration:5s
+
+
+}
+.carousel-item .over button
+{
+    font-size:19px;
+    text-transform: uppercase;
+    color:white;
+    background:none;
+    letter-spacing:1px;
+    padding:7px 18px;
+    font-family: sans-serif;
+    border:2px solid white;
+    border-radius:5px;
+    transition: 0.6s
+}
+.carousel-item .over button:hover{
+    background:#1BAC91;
+    border:2px solid #1BAC91;
+
+}
+.carousel-indicators li
+{
+    width:15px;
+    height:15px;
+    border-radius:50%
+}
+.carousel-indicators .active
+{
+    width:15px;
+    height:15px;
+    border-radius:50%
+    
+}
+
+/* end curosal */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start aboutus */
+#aboutus
+{
+    padding:60px 0 50px;
+    overflow: hidden
+}
+#aboutus .row .left 
+{
+
+    background-image:url('../img/about-img.jpg');
+    background-size: cover;
+    height:500px;
+  
+}
+#aboutus .row .right 
+{
+    padding-left:50px;
+    
+}
+#aboutus .row .right header h2
+{
+    color:#21413c;
+    font-size:33px;
+    font-family:serif;
+    margin-top:0;
+    letter-spacing:2px
+}
+#aboutus .row .right p
+{
+    font-size:17px;
+    color: #444444;
+    font-weight:500;
+    font-family: sans-serif;
+    margin-left:5px;
+    margin-bottom: 33px
+
+}
+
+#aboutus .row .right .row div:first-child i
+{
+    margin-top: 10px;
+    color:#1BAC91;
+}
+#aboutus .row .right .row div:last-child h3
+{
+    color:#21413c;
+    font-size:28px;
+    font-family:serif;
+    margin-bottom:10px
+}
+#aboutus .row .right .row div:last-child p
+{
+    font-family: initial
+}
+
+@media(max-width:576px)
+{
+    #aboutus .row .right 
+    {
+    padding-left:15px;
+    
+    }
+    #aboutus .row .left
+    {
+        margin-bottom: 30px
+    }
+
+}
+/* end aboutus */
+
+
+
+
+
+
+
+
+
+/* start services */
+.servaces
+{
+    padding:40px 0;
+    background:#F2F9F8;
+}
+.servaces .row div
+{
+    padding:40px;
+    padding-bottom:30px
+}
+.servaces .row div span
+{
+    color:#1BAC91;
+    font-size:26px;
+    margin-bottom:15px;
+    display: block
+}
+.servaces .row div h3
+{
+    font-family: serif;
+    margin-bottom:17px;
+    font-size:29px
+}
+.servaces .row div p
+{
+    color:#aaaaaa;
+    font-size:17px;
+    font-weight:450
+}
+
+.servaces .row div:first-child
+{
+    border-right:1px solid  #d4e9e6;
+    border-bottom:1px solid #d4e9e6
+}
+.servaces .row div:nth-child(2)
+{
+    border-right:1px solid #d4e9e6;
+    border-bottom:1px solid #d4e9e6
+}
+.servaces .row div:nth-child(3)
+{
+    border-bottom:1px solid #d4e9e6
+}
+.servaces .row div:nth-child(4)
+{
+    border-right:1px solid #d4e9e6;
+}
+.servaces .row div:nth-child(5)
+{
+    border-right:1px solid #d4e9e6;
+}
+/* end services */
+
+
+
+
+
+
+
+
+
+
+
+/* start portofolio*/
+#portofolio1
+{
+    padding:50px 0;
+    background:#FFFFFF;
+}
+#portofolio .row div:first-child div
+{
+    padding:15px;
+    height:110px;
+    
+}
+#portofolio1 .row div:first-child div h4
+{
+    font-family: auto;
+    font-size:28px;
+    transition: 0.6s
+}
+#portofolio1 .row div:first-child div p
+{
+    font-weight:450;
+    transition: 0.6s;
+    font-style: italic
+}
+#portofolio1 .row div:first-child div:hover
+{
+    color:#1BAC91
+}
+
+
+#portofolio1 .row div:first-child div:first-child
+{
+    box-shadow:3px 3px 10px #ddd,-3px -3px 10px #ddd;
+    padding:3px
+}
+#portofolio1 .row div:first-child div:first-child > h4
+{
+    color:#1BAC91;
+    font-weight:500;
+    text-transform: capitalize
+}
+#portofolio1 .row div:last-child img
+{
+    margin-left: 100px
+}
+/* end portofolio*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start Services */
+#Services
+{
+    padding:50px 0 60px;
+    background:#F2F9F8;
+    overflow: hidden
+}
+#Services header h2
+{
+    font-size:38px;
+    margin-bottom:20px;
+    font-family:serif;
+    color:#21413C
+}
+#Services header p
+{
+    font-size:17px;
+    font-family: sans-serif;
+    margin-bottom:40px
+}
+#Services .row div div
+{
+    background:white;
+    padding: 27px;
+    border-radius:13px;
+    transition: 0.7s
+}
+#Services .row div div:hover{
+    box-shadow:5px 5px 10px #ddd,-5px -5px 10px #ddd
+}
+
+#Services .row div div i
+{
+    margin-bottom: 15px
+}
+#Services .row div div h4
+{
+    font-family:auto;
+    margin-bottom:15px
+}
+#Services .row div div p
+{
+    line-height:1.7;
+    font-weight:480
+}
+
+/* end Services */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====== start tetorials ====== */
+#tetorials
+{
+    
+}
+#tetorials .container .carousel-item
+{
+    min-height:700px;
+    padding:50px 0
+}
+#tetorials .container .carousel-item .row header h2
+{
+    
+    font-family: serif;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-size:40px;
+    color:#21413C
+}
+#tetorials .container .carousel-item .row header p
+{
+    width:90%;
+    margin: auto;
+    font-weight:500;
+    opacity: 0.7;
+    margin-bottom:40px
+}
+
+
+#tetorials .container .carousel-item div .firest 
+{
+    height:300px;
+}
+#tetorials .container .carousel-item div .firest div
+{
+    background:#deefec;
+    height:83%;
+    margin-bottom:60px;
+    padding: 10px 20px;
+    border-radius:8px
+
+
+}
+#tetorials .container .carousel-item div .firest img
+{
+    width:90px;
+    height: 90px;
+    border-radius:50%;
+    background:white;
+    padding:4px;
+    margin-left:7px;
+
+}
+#tetorials .container .carousel-item div .firest p
+{
+    font-family:auto;
+    line-height:1.6;
+    margin-bottom: 15px;
+    font-size:17px;
+    font-style: italic
+}
+#tetorials .container .carousel-item div .firest p::before
+{
+    content:"\f10d";
+    font-family:'fontawesome';
+    color:#A8D3CC;
+    margin-right:8px;
+    font-size:25px
+    
+}
+#tetorials .container .carousel-item div .firest p::after
+{
+    content:"\f10d";
+    font-family:'fontawesome';
+    color:#A8D3CC;
+    margin-left:5px;
+    font-size:25px
+}
+
+
+#tetorials .container .carousel-item div h4,span
+{
+    margin-left:15px;
+}
+#tetorials .container .carousel-item div h4
+{
+    text-transform: capitalize;
+    font-family: serif;
+    margin-bottom: 0;
+    font-weight:600
+
+}
+#tetorials .container .carousel-item div span
+{
+    font-weight:400;
+    font-size:14px
+}
+.carousel-indicators li
+{
+    background:gray;
+    width:17px;
+    height:2px
+}
+.carousel-indicators .active
+{
+    background:#1BAC91;
+    width:17px;
+    height:2px
+}
+@media(max-width:576px)
+{
+    #tetorials .container .carousel-item div .firest div
+
+    {
+        margin-bottom:30px
+    }
+}
+@media(min-width:576px) and (max-width:786px)
+{
+    #tetorials .container .carousel-item div .firest div
+
+    {
+        margin-bottom:30px
+    }
+}
+@media(min-width:786px) and (max-width:992px)
+{
+    #tetorials .container .carousel-item div .firest div
+
+    {
+        margin-bottom:80px
+    }
+}
+@media(min-width:992px) and (max-width:1200px)
+{
+    #tetorials .container .carousel-item div .firest div
+
+    {
+        margin-bottom:110px
+    }
+}
+
+/* ====== end tetorials ====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====== start portofolio ====== */
+#portofolio
+{
+    padding:70px 0 50px;
+    background:#F2F9F8
+}
+#portofolio .row header h2
+{
+    font-family: serif;
+    margin-bottom:20px;
+    font-size:40px;
+    letter-spacing:2px
+}
+#portofolio .row header p
+{
+    width:90%;
+    margin: auto;
+    font-size:17px;
+    font-family: sans-serif;
+    margin-bottom: 30px
+}
+#portofolio .list
+{
+    margin-bottom:50px
+}
+
+#portofolio .list ul
+{
+    padding:15px;
+    border-radius:25px;
+    background: #FFFFFF;
+    width:320px;
+    margin: auto;
+    box-shadow:5px 5px 10px #ddd,-5px -5px 10px #ddd
+}
+
+#portofolio .list ul li 
+{
+    width:50px;
+    display: block;
+    text-decoration:none;
+    color:#333;
+    margin: 0 5px;
+    transition: 0.5s;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: capitalize
+
+    
+}
+#portofolio .list ul .activ
+{
+    color:#1BAC91
+}
+
+#portofolio .list ul li:hover{
+    color:#1BAC91;
+    cursor: pointer
+}
+#portofolio .img div
+{
+    margin-bottom:30px;
+    border:0;
+    background: none
+}
+#portofolio .img div div:first-child
+{
+    width:100%;
+    height:270px;
+    position:relative;
+    padding: 0
+
+    
+}
+#portofolio .img div .shado
+{
+    position:absolute;
+    background:rgba(2,2,2,0.4);
+    width:100%;
+    height:270px;
+    z-index:2;
+    transform:scale(0.7);
+    opacity: 0;
+    transition: 0.9s
+    
+}
+
+#portofolio .img div .shado > span
+{
+    position: absolute;
+    background:white;
+    transition:1s;
+    transition-delay:0.5s
+    
+}
+#portofolio .img div .shado span:first-child
+{
+    top:15px;
+    left:2px;
+    height:4px;
+    width:48px;
+    
+}
+
+#portofolio .img div .shado span:nth-child(2)
+{
+    top:19px;
+    left:2px;
+    height:48px;
+    width:4px;
+    
+}
+
+#portofolio .img div .shado span:nth-child(3)
+{
+    bottom:15px;
+    left:2px;
+    height:50px;
+    width:4px;
+    
+}
+#portofolio .img div .shado span:nth-child(4)
+{
+    bottom:15px;
+    left:4px;
+    height:4px;
+    width:48px;
+    
+}
+#portofolio .img div .shado span:nth-child(5)
+{
+    bottom:15px;
+    right:17px;
+    height:4px;
+    width:48px;
+    
+}
+#portofolio .img div .shado span:nth-child(6)
+{
+    bottom:19px;
+    right:17px;
+    height:44px;
+    width:4px;
+    
+}
+#portofolio .img div .shado span:nth-child(7)
+{
+    top:15px;
+    right:17px;
+    height:48px;
+    width:4px;
+    
+}
+#portofolio .img div .shado span:nth-child(8)
+{
+    top:15px;
+    right:21px;
+    height:4px;
+    width:44px;
+    
+}
+#portofolio .img div:hover .shado span:nth-child(8),
+#portofolio .img div:hover .shado span:nth-child(1),
+#portofolio .img div:hover .shado span:nth-child(4),
+#portofolio .img div:hover .shado span:nth-child(5)
+{
+    width:40%
+}
+#portofolio .img div:hover .shado span:nth-child(7),
+#portofolio .img div:hover .shado span:nth-child(2),
+#portofolio .img div:hover .shado span:nth-child(3),
+#portofolio .img div:hover .shado span:nth-child(6)
+{
+    height:40%
+}
+
+
+
+
+
+#portofolio .img div .shado div
+{
+    text-align: center;
+    padding-top:80px;
+    color:white
+}
+#portofolio .img div .shado div h4
+{
+    font-weight: bold;
+    color:white;
+    margin-bottom:10px;
+    
+}
+#portofolio .img div .shado div i
+{
+    margin-left:15px
+}
+#portofolio .img div .shado div span
+{
+    text-transform:uppercase;
+    margin-bottom:15px
+}
+#portofolio .img div .shado div:hover
+{
+    color:white;
+}
+#portofolio .img div:hover .shado
+{
+    opacity:1;
+    transform:scale(1);
+}
+/* ====== end portofolio ====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====== start team ====== */
+#team
+{
+    padding:50px 0 70px;
+    overflow: hidden
+}
+#team header h2
+{
+    font-family:serif;
+    font-size:40px;
+    margin-bottom: 20px;
+    letter-spacing:2px;
+    text-transform: capitalize
+}
+#team .row header p
+{
+    width:80%;
+    margin: auto;
+    font-family:sans-serif;
+    font-weight:540;
+    opacity: 0.7;
+    margin-bottom:85px
+}
+#team .row  div div
+{
+    height:250px;
+    width: 100%;
+    position:relative;
+    transition: 0.5s;
+    overflow: hidden
+}
+#team .row  div div div:first-child
+{
+    position: absolute;
+    height:80px;
+    left: 0;
+    top:170px;
+    width: 100%;
+    text-align: center;
+    color:white;
+    transform:translate(0,80px);
+    transition: 0.5s;
+    background: transparent
+
+
+}
+#team .row  div div div:first-child p
+{
+    font-style: italic
+}
+#team .row  div div:hover div:first-child
+{
+    transform: translate(0);
+}
+#team .row  div .select:hover
+{
+    box-shadow:5px 5px 1000px inset #111  
+}
+#team .row  div div div:last-child
+{
+    position: absolute;
+    left: 0;
+    top:0;
+    width:50px;
+    height: 100%;
+    background:rgba(0,0,0,0.4);
+    transform:translate(-50px,0);
+    transition:0.5s;
+    opacity:0
+}
+#team .row  div div div:last-child i
+{
+    display: block;
+    color:white;
+    margin: 16px 0 0 17px;
+    font-size:20px
+}
+#team .row  div div:hover div:last-child 
+{
+    opacity: 1;
+    transform: translate(0)
+}
+/* ====== end team ====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====== start faq ====== */
+.faq
+{
+    padding:50px 0;
+    background-color:#F5FAF0;
+    overflow: hidden
+    
+}
+.faq .container .faq-header h2
+{
+    font-family:sans-serif;
+    font-size:42px;   
+}
+.faq .container .faq-header p
+{
+    font-family: sans-serif;
+    font-style:italic;
+    margin-bottom:47px;
+    font-size:17px;
+    font-weight:520
+}
+.faq .container .collapsedd
+{
+    width: 80%;
+    margin: auto
+}
+.faq .container .collapsedd .cardd
+{
+    margin-bottom: 20px;
+    border:1px solid #ddd;
+    padding: 0;
+    background:white;
+}
+.faq .container .collapsedd .cardd .card-headerr input
+{
+    display: none
+}
+.faq .container .collapsedd .cardd .card-headerr label
+{
+    font-size:19px;
+    font-weight: 600;
+    padding: 9px 18px;
+    line-height:inherit;
+    display: block;
+    cursor: pointer
+
+}
+.faq .container .collapsedd .cardd section
+{
+    height:0;
+    overflow: hidden;
+    transition:all 0.5s ease-in-out;
+    padding:0 15px 0;
+    font-style: italic;
+    
+}
+.faq .container .collapsedd .cardd .card-headerr input:checked ~ section
+{
+    height: 90px;
+    padding-top:10px
+
+}
+.faq .container .collapsedd .cardd .card-headerr label::before
+{
+    content:"\f059";
+    font-family:'fontawesome';
+    color:#97CAC2;
+    font-size:20px;
+    padding:15px 5px 0 0;
+}
+.faq .container .collapsedd .cardd .card-headerr label::after
+{
+    content:"\f107";
+    font-family:'fontawesome';
+    float: right
+}
+.faq .container .collapsedd .cardd .card-headerr label:hover
+{
+    color:#8fc04e
+}
+.faq .container .collapsedd .cardd .card-headerr .final::after
+{
+    content:"\f106";
+}
+
+/* ====== end faq ====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== start contact ============ */
+.contact 
+{
+    padding:50px 0;
+    overflow: hidden
+}
+.contact header h2
+{
+    font-family: serif;
+    font-size:41px;
+    letter-spacing:2px;
+    margin-bottom:15px
+}
+.contact header p
+{
+    font-size:17px;
+    font-style:italic;
+    margin-bottom:40px
+}
+.contact .row
+{
+    padding:0 100px
+}
+.contact .row .col-md
+{
+    
+}
+
+.contact .row div:first-child div 
+{
+    background: ;
+    height:80px;
+    margin-bottom:10px;
+    width: 100%;
+    overflow: hidden
+}
+.contact .row div:first-child div div:first-child i
+{
+    font-size:27px;
+    margin:5px 0 0 0px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#dbf7f2;
+    color:#1BAC91;
+    text-align: center;
+    line-height: 50px;
+    transition: 0.5s
+}
+.contact .row .col-md .all:hover i
+{
+    color:white;
+    background:#1BAC91
+}
+.contact .row div:first-child div h4
+{
+    font-family: serif;
+    margin: 0;
+    font-size:29px
+}
+.contact .row div:first-child
+{
+}
+.contact .row div:first-child div p
+{
+    width: 100%;
+    color:#43857a;
+    font-style: italic
+}
+@media(max-width:1076px)
+{
+    .contact .row
+    {
+    padding:0;
+        margin: 0
+    }
+}
+.contact .row .form
+{
+    box-shadow:3px 3px 10px #ddd,-3px -3px 10px #ddd;
+    height: 430px;
+    padding:35px 35px
+}
+.contact .row .form input
+{
+    padding:10px 7px;
+    font-weight: 500;
+    margin-bottom:25px;
+    border:1px solid #ddd
+}
+.contact .row .form input:first-child
+{
+    width:49%
+}
+
+.contact .row .form input:nth-child(2)
+{
+    width:49%
+}
+
+.contact .row .form input:nth-child(3)
+{
+    width:100%
+}
+.contact .row .form textarea
+{
+    width:100%;
+    height:140px;
+    resize: none;
+    border:1px solid #ddd;
+    margin-bottom:25px
+}
+.contact .row .form button
+{
+    display: block;
+    margin: auto;
+    font-size:18px;
+    color:white;
+    background:#1BAC91;
+    font-weight:500;
+    border:0;
+    padding:9px 22px;
+    border-radius:5px;
+    transition: 0.4s
+    
+}
+.contact .row .form button:hover
+{
+    background:#22D8B6
+
+}
+/* ======== end contact ============ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== start footer ============ */
+.footer
+{
+    background:#0C1817;
+    padding:50px 0;
+    color:white
+}
+.footer .row div:first-child h3
+{
+    font-family:serif;
+    font-size:30px
+}
+.footer .row div:first-child p
+{
+    font-weight:500;
+    font-style:italic
+}
+
+.footer .row div:first-child ul li
+{
+    display:inline-block
+}
+.footer .row div:first-child ul li i
+{
+    width:34px;
+    height:34px;
+    border-radius:50%;
+    text-align: center;
+    line-height:34px;
+    background:#1c3733;
+    margin-right:7px;
+    transition: 0.4s;
+    cursor: pointer
+}
+.footer .row div:first-child ul li i:hover
+{
+    background:#1bac91
+}
+.footer .row div:nth-child(2) h3,
+.footer .row div:nth-child(3) h3
+{
+    font-family: serif;
+    margin-bottom: 27px
+}
+.footer .row div:nth-child(2) ul li,
+.footer .row div:nth-child(3) ul li
+{
+    font-weight:490;
+    margin-bottom:12px;
+    text-transform: capitalize;
+    font-style: italic
+}
+.footer .row div:nth-child(2) ul li::before,
+.footer .row div:nth-child(3) ul li::before
+{
+    content:"\f105";
+    font-family:'fontawesome';
+    color:#4ae3c6;
+    margin-right:6px 
+}
+.footer .row div:nth-child(4)
+{
+    float: right
+}
+.footer .row div:nth-child(4) h3
+{
+    font-family:serif;
+    margin-bottom:29px
+}
+.footer .row div:nth-child(4) p
+{
+    font-style:italic;
+    margin-bottom:40px
+}
+.footer .row div:nth-child(4) input
+{
+    border:0;
+    padding:9px 0;
+    width:70%;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px 
+}
+.footer .row div:nth-child(4) button
+{
+    padding: 9px 17px;
+    margin-left:-4px;
+    border: 0;
+    font-weight:600;
+    color:white;
+    background:#4ae3c6;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px 
+    
+}
+.footer1
+{
+    background:#000000;
+    color:white;
+    padding:25px 0 15px;
+    text-align: center
+    
+}
+.footer1 h6
+{
+    margin-bottom: 10px
+}
+.footer1 p
+{
+    font-weight:500
+}
+
+.footer1 span
+{
+    color:#22D8B6;
+}
+.footer1 span:hover
+{
+    opacity:0.7;
+    cursor:pointer
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== start footer ============ */
+
+
+
+
+
+
+
+
+
+
+
